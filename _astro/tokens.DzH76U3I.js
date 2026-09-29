@@ -1,0 +1,1 @@
+var e=e=>getComputedStyle(document.documentElement).getPropertyValue(e).trim(),t=t=>{let n=e(t),r=parseFloat(n)||0;return n.endsWith(`ms`)?r:n.endsWith(`s`)?r*1e3:r};export{e as n,t};
